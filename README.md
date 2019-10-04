@@ -2,7 +2,7 @@
 
 Rails plugin that do check-in/check-out of models of ActiveRecord.
 
-[![Build Status](https://travis-ci.org/armando1339/check_in_objects.svg?branch=master)](https://travis-ci.org/armando1339/check_in_objects) [![Coverage Status](https://coveralls.io/repos/github/armando1339/check_in_objects/badge.svg?branch=master)](https://coveralls.io/github/armando1339/check_in_objects?branch=master)
+[![Build Status](https://travis-ci.org/armando1339/check_in_objects.svg?branch=master)](https://travis-ci.org/armando1339/check_in_objects) [![Coverage Status](https://coveralls.io/repos/github/armando1339/check_in_objects/badge.svg?branch=feature/adding_travisci)](https://coveralls.io/github/armando1339/check_in_objects?branch=feature/adding_travisci)
 
 ## Usage
 
