@@ -6,7 +6,27 @@ Rails plugin that do check-in/check-out of models of ActiveRecord.
 
 ## Usage
 
-How to use my plugin.
+Add the `#acts_as_object_checkable` in the ActiveRecord models that want they have the functionality.
+The method will add associations with the Attendance and Entry models where Entry inherits from Attendace. The association will give you access to the ActiveRecord relationship method
+
+Example:
+
+```ruby
+class User < ActiveRecord::Base
+  acts_as_object_checkable
+end
+
+# Then:
+
+user = User.new
+user.attendances.build_attendance
+user.entries.build_entry
+
+# for exit
+
+entry = user.entries.last
+entry.create_exit
+```
 
 ## Installation
 

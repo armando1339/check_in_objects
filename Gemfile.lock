@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    check_in_objects (0.1.0)
+    check_in_objects (1.0.0alpha)
       rails (~> 5.2.3)
 
 GEM
